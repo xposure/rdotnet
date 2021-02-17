@@ -17,10 +17,7 @@
     <!-- <PackageProjectUrl>https://github.com/jmp75/rdotnet</PackageProjectUrl>
     <PackageReleaseNotes>Migration to .NET Standard 2.0</PackageReleaseNotes> -->
   </PropertyGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
-    <PackageReference Include="DynamicInterop" Version="0.7.4" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net50' ">
+  <ItemGroup>
     <PackageReference Include="DynamicInterop" Version="0.9.1" />
   </ItemGroup>  
   <ItemGroup>
