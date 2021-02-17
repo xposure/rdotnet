@@ -5,6 +5,7 @@
     <Version>2.0.0</Version>
     <RootNamespace>RDotNet</RootNamespace>
     <AssemblyName>Xposure.RDotNet</AssemblyName>
+    <PackageId>Xposure.RDotNet</PackageId>
     <OutputType>Library</OutputType>
     <TargetFramework>net50</TargetFramework>
     <Copyright>(c) 2014-2020 Jean-Michel Perraud and others see https://github.com/jmp75/rdotnet/blob/master/License.txt</Copyright>
